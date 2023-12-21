@@ -1,5 +1,6 @@
 # api key:
-API_Token = "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"
+import os
+print(os.getenv("huggingface_API"))
 
 from huggingface_hub.inference_api import InferenceApi
 
